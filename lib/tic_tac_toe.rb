@@ -85,6 +85,7 @@ class TicTacToe
   end
 
   def play
+<<<<<<< HEAD
     while !over?
       turn
     end
@@ -97,3 +98,16 @@ class TicTacToe
   end
 
 end
+=======
+    turn
+    if !over?
+      turn
+    elsif won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat\'s Game!"
+    end
+  end
+end
+
+>>>>>>> fd12c73b889689c3fc6dd46e4718fefa153d9f11
